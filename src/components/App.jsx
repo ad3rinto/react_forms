@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="container">
       <h1>Hello {name} </h1>
-      <input onChange={handleChange} type="text" placeholder="What's your name?" value={name}/>
+      <input onChange={handleChange} type="text" placeholder="What's your name?" />
       <button onClick={updateHeader}>Submit</button>
     </div>
   );
